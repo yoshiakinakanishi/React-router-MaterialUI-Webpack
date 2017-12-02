@@ -1,0 +1,26 @@
+{
+  "name": "",
+  "license": "MIT",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack --watch",
+    "serve": "webpack-dev-server --hot --inline --devtool source-map"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^3.9.1",
+    "webpack-dev-server": "^2.9.4"
+  },
+  "dependencies": {
+    "material-ui": "^0.19.4",
+    "react": "^16.1.1",
+    "react-dom": "^16.2.0",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2"
+  }
+}
