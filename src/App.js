@@ -14,7 +14,7 @@ const Contact = () => (
 )
 
 const Nav = () => (
-    <div className="Nav" style={{ background: 'gold', padding: '20px 10px' }}>Navbar</div>
+    <div className="Nav" style={{ background: 'pink', padding: '20px 10px' }}>Navbar</div>
 )
 
 //-- 描画 --//
