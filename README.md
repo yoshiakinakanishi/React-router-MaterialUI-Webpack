@@ -15,7 +15,7 @@
 
 ### #スクリーンショット
 
-<img width="700" src="https://user-images.githubusercontent.com/28942665/33539461-e72ea3a2-d909-11e7-888b-25816f4fe017.JPG">
+<img width="800" src="https://user-images.githubusercontent.com/28942665/33542382-3042fca8-d916-11e7-88d7-6b2f2dbc6d72.png">
 
 
 
