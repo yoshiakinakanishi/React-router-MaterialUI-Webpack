@@ -13,7 +13,7 @@
 | アーキテクチャ | --- |  
 | API通信 | --- |  
 
-### キャプチャ
+### スクリーンショット
 
 ![default](https://user-images.githubusercontent.com/28942665/33539461-e72ea3a2-d909-11e7-888b-25816f4fe017.JPG)
 
