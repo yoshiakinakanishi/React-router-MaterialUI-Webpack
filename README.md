@@ -9,9 +9,10 @@
 | カテゴリ 　 |使用技術　　　　|      
 |:----------|:----------|
 | 言語       |ES2015/JSX/Babel   |     
-| Viewライブラリ |React |       
-| アーキテクチャ | --- |        
+| Viewライブラリ |React |             
 | UIライブラリ |Material-UI |          
-| ビルドツール |Webpack    
-| ルーティング    |ract-router     |
+| バンドルツール |Webpack    
+| ルーティング    |react-router     |
+| アーキテクチャ | --- |  
+| API通信 | --- |  
 
