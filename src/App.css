@@ -5,6 +5,22 @@ body {
 .wrap {
 	position: relative;
 }
+ 
+ul {
+  	list-style: none;
+}
+
+ul li {
+	margin-bottom: 15px;
+}
+
+.list {
+	margin-left: -40px;
+}
+
+.active {
+  	text-decoration: 1px solid #000;
+}
 
 .topNav {
 	height: 60px;
