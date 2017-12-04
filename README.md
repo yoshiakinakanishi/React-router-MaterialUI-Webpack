@@ -3,4 +3,4 @@
 
 *react-routerをつかった画面遷移*
 
-![a](https://user-images.githubusercontent.com/28942665/33518299-e1489d38-d7d5-11e7-8cf1-ef12b8ea2202.JPG)
+![default](https://user-images.githubusercontent.com/28942665/33539461-e72ea3a2-d909-11e7-888b-25816f4fe017.JPG)
