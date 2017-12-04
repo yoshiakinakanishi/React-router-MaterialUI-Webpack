@@ -8,7 +8,7 @@ import main4 from './component/main4';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
 import './App.css';
 
-const Left = () => (
+const leftNav__Button = () => (
   <MuiThemeProvider>
       <ul className="list">
         <li><Link to="/" ><FlatButton label="TEXT1" fullWidth={true} /></Link></li>
@@ -28,7 +28,7 @@ class App extends Component {
 
           <div className="leftNav">
             <div className="leftNav__hero">App</div>
-            <Left />
+            <leftNav__Button />
           </div>
 
           <div>
