@@ -22,11 +22,11 @@ const main2 = () => (
         <ListItem primaryText="fuga" leftCheckbox={<Checkbox />} />
         <ListItem primaryText="hoge" leftCheckbox={<Checkbox />} />
         <ListItem primaryText="fuga" leftCheckbox={<Checkbox />} />
-        <ListItem primaryText="hoge" leftCheckbox={<Checkbox />} />        
       </List>
       <br />
 
       <div>
+        <TextField hintText="テキストを入力" fullWidth={true}/><br /><br />
         <TextField hintText="テキストを入力" fullWidth={true}/><br /><br />
         <TextField hintText="テキストを入力" fullWidth={true}/><br /><br />
         <TextField hintText="テキストを入力" fullWidth={true}/><br /><br />
