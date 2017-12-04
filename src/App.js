@@ -1,19 +1,10 @@
 import React, { Component } from 'react';
-
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import FlatButton from 'material-ui/FlatButton';
-import RaisedButton from 'material-ui/RaisedButton';
-import TextField from 'material-ui/TextField';
-import DatePicker from 'material-ui/DatePicker';
-import {List, ListItem} from 'material-ui/List';
-import Checkbox from 'material-ui/Checkbox';
-import TimePicker from 'material-ui/TimePicker';
-
 import main1 from './component/main1';
 import main2 from './component/main2';
 import main3 from './component/main3';
 import main4 from './component/main4';
-
 import { BrowserRouter, Route, Link } from 'react-router-dom';
 import './App.css';
 
