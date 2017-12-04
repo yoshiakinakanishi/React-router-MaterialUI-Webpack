@@ -9,14 +9,13 @@ import {List, ListItem} from 'material-ui/List';
 import Checkbox from 'material-ui/Checkbox';
 import TimePicker from 'material-ui/TimePicker';
 
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import './App.css';
+import '../App.css';
 
 
-const ABOUT3 = () => (
+const main4 = () => (
   <MuiThemeProvider>
       <div className="main">
-        <div　className="main__title">TITLE３</div>
+        <div　className="main__title">TITLE４</div>
         <TextField hintText="テキストを入力"/><br /><br />
         <TextField hintText="テキストを入力"/><br /><br />
         <TextField hintText="テキストを入力"/><br /><br /><br />
@@ -26,4 +25,4 @@ const ABOUT3 = () => (
 );
 
 
-export default ABOUT3;
+export default main4;

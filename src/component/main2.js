@@ -9,11 +9,10 @@ import {List, ListItem} from 'material-ui/List';
 import Checkbox from 'material-ui/Checkbox';
 import TimePicker from 'material-ui/TimePicker';
 
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import './App.css';
+import '../App.css';
 
 
-const ABOUT2 = () => (
+const main2 = () => (
   <MuiThemeProvider>
     <div className="main">
       <div　className="main__title">TITLE２</div>
@@ -40,4 +39,4 @@ const ABOUT2 = () => (
 );
 
 
-export default ABOUT2;
+export default main2;

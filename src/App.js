@@ -9,10 +9,10 @@ import {List, ListItem} from 'material-ui/List';
 import Checkbox from 'material-ui/Checkbox';
 import TimePicker from 'material-ui/TimePicker';
 
-import ABOUT1 from './ABOUT1';
-import ABOUT2 from './ABOUT2';
-import ABOUT3 from './ABOUT3';
-import ABOUT4 from './ABOUT4';
+import main1 from './component/main1';
+import main2 from './component/main2';
+import main3 from './component/main3';
+import main4 from './component/main4';
 
 import { BrowserRouter, Route, Link } from 'react-router-dom';
 import './App.css';
@@ -41,10 +41,10 @@ class App extends Component {
           </div>
 
           <div>
-            <Route exact path="/" component={ABOUT1} />
-            <Route path="/2" component={ABOUT2} />
-            <Route path="/3" component={ABOUT3} />
-            <Route path="/4" component={ABOUT4} />
+            <Route exact path="/" component={main1} />
+            <Route path="/2" component={main2} />
+            <Route path="/3" component={main3} />
+            <Route path="/4" component={main4} />
           </div>
         </div>
       </BrowserRouter>
