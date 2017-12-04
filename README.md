@@ -15,7 +15,7 @@
 
 ## #スクリーンショット
 
-<img width="800" src="https://user-images.githubusercontent.com/28942665/33542382-3042fca8-d916-11e7-88d7-6b2f2dbc6d72.png">
+<img width="1000" src="https://user-images.githubusercontent.com/28942665/33542382-3042fca8-d916-11e7-88d7-6b2f2dbc6d72.png">
 
 ## #フォルダ構成
 
