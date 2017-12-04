@@ -13,7 +13,7 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import './App.css';
 
 
-const Main = () => (
+const Main1 = () => (
   <MuiThemeProvider>
       <div className="main">
         <div　className="main__title">TITLE１</div>
@@ -83,13 +83,13 @@ const Main4 = () => (
 );
 
 
-const LeftNavButton = () => (
+const LeftNav = () => (
   <MuiThemeProvider>
       <div>
-        <a href='/'><FlatButton label="TEXT1" fullWidth={true} /></a><br /><br />
-        <a href='/trans2'><FlatButton label="TEXT2" fullWidth={true} /></a><br /><br />
-        <a href='/trans3'><FlatButton label="TEXT3" fullWidth={true} /></a><br /><br />
-        <a href='/trans4'><FlatButton label="TEXT4" fullWidth={true} /></a><br /><br />        
+        <a href="/" ><FlatButton label="TEXT1" fullWidth={true} /></a><br /><br />
+        <a href='/trans2' ><FlatButton label="TEXT2" fullWidth={true} /></a><br /><br />
+        <a href='/trans3' ><FlatButton label="TEXT3" fullWidth={true} /></a><br /><br />
+        <a href='/trans4' ><FlatButton label="TEXT4" fullWidth={true} /></a><br /><br />        
       </div>
   </MuiThemeProvider>
 );
@@ -98,7 +98,7 @@ const LeftNavButton = () => (
 const Contents = () => (
   <Router>
     <div>
-      <Route exact path="/" component={Main}/>
+      <Route exact path="/" component={Main1}/>
       <Route path="/trans2" component={Main2}/>
       <Route path="/trans3" component={Main3}/>
       <Route path="/trans4" component={Main4}/>
@@ -116,7 +116,7 @@ class App extends Component {
 
           <div className="leftNav">
             <div className="leftNav__hero">App</div>
-            <LeftNavButton />
+            <LeftNav />
           </div>
 
           <Contents />
