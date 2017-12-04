@@ -53,7 +53,7 @@ top
 下記のコマンドでlocalhost:3000が立ち上がる　＊自動リロード設定済み
 
 ```
-yarn start
+*yarn start*
 ```
 
 
