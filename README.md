@@ -6,7 +6,7 @@
 
 ---
 
-| Left align | Right align | Center align |
+| 使用技術 　 | Right align | Center align |
 |:-----------|------------:|:------------:|
 | This       |        This |     This     |
 | column     |      column |    column    |
