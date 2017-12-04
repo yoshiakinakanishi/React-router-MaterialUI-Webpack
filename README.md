@@ -14,7 +14,7 @@
 | API通信 | --- |  
 
 ## # スクリーンショット
-
+左ナビメニューをクリックすると画面遷移、それぞれの描画を切替わり
 <img width="1000" src="https://user-images.githubusercontent.com/28942665/33542382-3042fca8-d916-11e7-88d7-6b2f2dbc6d72.png">
 
 ## # ファイル構成
