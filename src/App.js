@@ -13,7 +13,7 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import './App.css';
 
 
-const Main1 = () => (
+const TEXT1 = () => (
   <MuiThemeProvider>
       <div className="main">
         <div　className="main__title">TITLE１</div>
@@ -30,7 +30,7 @@ const Main1 = () => (
 );
 
 
-const Main2 = () => (
+const TEXT2 = () => (
   <MuiThemeProvider>
     <div className="main">
       <div　className="main__title">TITLE２</div>
@@ -57,7 +57,7 @@ const Main2 = () => (
 );
 
 
-const Main3 = () => (
+const TEXT3 = () => (
   <MuiThemeProvider>
       <div className="main">
         <div　className="main__title">TITLE３</div>
@@ -70,7 +70,7 @@ const Main3 = () => (
 );
 
 
-const Main4 = () => (
+const TEXT4 = () => (
   <MuiThemeProvider>
       <div className="main">
         <div　className="main__title">TITLE４</div>
@@ -98,10 +98,10 @@ const LeftNav = () => (
 const Contents = () => (
   <Router>
     <div>
-      <Route exact path="/" component={Main1}/>
-      <Route path="/trans2" component={Main2}/>
-      <Route path="/trans3" component={Main3}/>
-      <Route path="/trans4" component={Main4}/>
+      <Route exact path="/" component={TEXT1}/>
+      <Route path="/trans2" component={TEXT2}/>
+      <Route path="/trans3" component={TEXT3}/>
+      <Route path="/trans4" component={TEXT4}/>
     </div>
   </Router>
 );
