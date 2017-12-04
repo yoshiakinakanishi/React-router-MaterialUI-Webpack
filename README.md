@@ -1,4 +1,4 @@
-# [WIP]Segment-Front-App-v2
+# [WIP] Segment-Front-App-v2
 
 
 ## #使用技術
