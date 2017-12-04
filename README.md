@@ -24,13 +24,9 @@ top
 │  .babelrc
 │  .eslintrc.js
 │  .gitignore
-│  filelist.txt
 │  package-lock.json
 │  package.json
-│  README.md
 │  webpack.config.js
-│  yarn-error.log
-│  yarn.lock
 │  
 ├─dist
 │      bundle.js
@@ -52,7 +48,3 @@ top
             App.css
             index.css
 ```
-
-
-
-
