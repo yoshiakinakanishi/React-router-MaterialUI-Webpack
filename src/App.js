@@ -6,7 +6,7 @@ import main2 from './component/main2';
 import main3 from './component/main3';
 import main4 from './component/main4';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
-import './App.css';
+import './style/App.css';
 
 const NavButton = () => (
   <MuiThemeProvider>
