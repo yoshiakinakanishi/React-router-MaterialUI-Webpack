@@ -20,14 +20,16 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import './App.css';
 
 
-const LeftNav = () => (
+const Left = () => (
   <MuiThemeProvider>
+    <Router>
       <div>
-        <a href="/" ><FlatButton label="TEXT1" fullWidth={true} /></a><br /><br />
-        <a href='/trans2' ><FlatButton label="TEXT2" fullWidth={true} /></a><br /><br />
-        <a href='/trans3' ><FlatButton label="TEXT3" fullWidth={true} /></a><br /><br />
-        <a href='/trans4' ><FlatButton label="TEXT4" fullWidth={true} /></a><br /><br />        
+        <Link to="/" ><FlatButton label="TEXT1" fullWidth={true} /></Link><br /><br />
+        <Link to='/trans2' ><FlatButton label="TEXT2" fullWidth={true} /></Link><br /><br />
+        <Link to='/trans3' ><FlatButton label="TEXT3" fullWidth={true} /></Link><br /><br />
+        <Link to='/trans4' ><FlatButton label="TEXT4" fullWidth={true} /></Link><br /><br />        
       </div>
+    </Router>
   </MuiThemeProvider>
 );
 
@@ -53,7 +55,13 @@ class App extends Component {
 
           <div className="leftNav">
             <div className="leftNav__hero">App</div>
-            <LeftNav />
+
+
+            <Left />
+          
+
+
+
           </div>
 
           <Contents />
