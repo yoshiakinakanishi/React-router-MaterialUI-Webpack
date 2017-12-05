@@ -1,5 +1,5 @@
 # [WIP] Segment-Front-App-v2
-
+フロント管理画面のリポジトリです。
 
 ## # 使用技術
 
@@ -10,12 +10,12 @@
 | UIライブラリ |Material-UI |          
 | バンドルツール |Webpack    
 | ルーティング    |react-router     |
-| 非同期通信ライブラリ    |SuperAgent   |
+| 非同期通信ライブラリ   |SuperAgent   |
 | API通信 | --- |  
 | アーキテクチャ | --- |  
 
 ## # スクリーンショット
-左ナビメニューをクリックすると画面遷移、それぞれの描画が切り替わる
+左ナビメニューをそれぞれクリックすると、各描画が切り替わり、画面遷移します。
 
 <img width="1000" src="https://user-images.githubusercontent.com/28942665/33542382-3042fca8-d916-11e7-88d7-6b2f2dbc6d72.png">
 
@@ -52,10 +52,10 @@ top
 ```
 
 ## # ローカルサーバー
-下記のコマンドでlocalhost:3000が起動　＊オートリロード設定済み
+下記のコマンドでlocalhost:3000が起動します。　＊オートリロード設定済み
 
 ```
-yarn start
+$ yarn start
 ```
 
 
